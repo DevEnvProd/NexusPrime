@@ -20,7 +20,7 @@ export default function DAOSection() {
             transition={{ delay: 0.1 }}
             className="text-xl md:text-2xl text-gray-400 font-medium max-w-4xl mx-auto"
           >
-            Become A Governor And Have Your Say Through NexusPrime's Voting System
+            Become A Governor And Have Your Say Through Playlandverse's Voting System
           </motion.p>
         </div>
 
@@ -29,10 +29,10 @@ export default function DAOSection() {
           
           {/* Intro Section */}
           <div className="mb-12">
-            <h3 className="text-2xl font-bold text-white mb-4">What is the NexusPrime DAO?</h3>
+            <h3 className="text-2xl font-bold text-white mb-4">What is the Playlandverse DAO?</h3>
             <p className="text-gray-300 text-lg leading-relaxed">
-              DAO stands for Decentralized Autonomous Organization. It's a system that allows <strong className="text-white">$NEXUS</strong> token holders to vote on the direction 
-              of NexusPrime. Anyone who holds $NEXUS tokens can participate in the NexusPrime DAO and have a say on proposals raised.
+              DAO stands for Decentralized Autonomous Organization. It's a system that allows <strong className="text-white">$PLAY</strong> token holders to vote on the direction 
+              of Playlandverse. Anyone who holds $PLAY tokens can participate in the Playlandverse DAO and have a say on proposals raised.
             </p>
           </div>
 
@@ -41,7 +41,7 @@ export default function DAOSection() {
             <div className="relative rounded-2xl overflow-hidden border border-white/10 shadow-2xl min-h-[300px]">
               <img 
                 src="https://picsum.photos/seed/nexus_dao_voting/800/600" 
-                alt="NexusPrime Voting Terminal" 
+                alt="Playlandverse Voting Terminal" 
                 className="w-full h-full object-cover" 
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
@@ -55,7 +55,7 @@ export default function DAOSection() {
                   How do I get involved?
                 </h4>
                 <p className="text-gray-400 leading-relaxed">
-                  In order to vote on a proposal raised in the DAO, you must first own <span className="text-[#F5009F] font-bold">$NEXUS tokens</span> on any of the supported blockchains.
+                  In order to vote on a proposal raised in the DAO, you must first own <span className="text-[#F5009F] font-bold">$PLAY tokens</span> on any of the supported blockchains.
                 </p>
               </div>
 
@@ -65,7 +65,7 @@ export default function DAOSection() {
                   How does voting work?
                 </h4>
                 <p className="text-gray-400 leading-relaxed">
-                  To participate in voting, a proposal is initiated with multiple choice questions. Each $NEXUS token represents a single vote, 
+                  To participate in voting, a proposal is initiated with multiple choice questions. Each $PLAY token represents a single vote, 
                   and the majority determines the outcome.
                 </p>
               </div>
@@ -77,8 +77,8 @@ export default function DAOSection() {
             <div className="flex gap-4 items-start mb-4">
               <Lock className="text-[#F5009F] shrink-0 mt-1" />
               <p className="text-gray-300 leading-relaxed">
-                Voters are required to lock their $NEXUS tokens for a specified period after voting. While users can withdraw their stake during the 
-                voting period, a <span className="text-[#F5009F] font-bold">30% fine</span> is imposed on the tokens. The staked $NEXUS remains locked in the contract for a designated period 
+                Voters are required to lock their $PLAY tokens for a specified period after voting. While users can withdraw their stake during the 
+                voting period, a <span className="text-[#F5009F] font-bold">30% fine</span> is imposed on the tokens. The staked $PLAY remains locked in the contract for a designated period 
                 after the voting period concludes. Voters receive APY (Annual Percentage Yield) as a reward during this period.
               </p>
             </div>

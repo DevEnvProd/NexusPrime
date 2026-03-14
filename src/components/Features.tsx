@@ -4,7 +4,7 @@ import { TrendingUp, Gamepad2, Vote, Store } from "lucide-react";
 const FEATURES = [
   {
     title: "Earn",
-    description: "Join a JOBE or stake your $NEXUS to generate passive income.",
+    description: "Join a JOBE or stake your $PLAY to generate passive income.",
     buttonText: "Earn Now",
     icon: TrendingUp,
     image: "https://picsum.photos/seed/crypto/600/400",
@@ -18,7 +18,7 @@ const FEATURES = [
   },
   {
     title: "DAO",
-    description: "Become a governor and have your say through NexusPrime's voting system.",
+    description: "Become a governor and have your say through Playlandverse's voting system.",
     buttonText: "Vote Now",
     icon: Vote,
     image: "https://picsum.photos/seed/vote/600/400",

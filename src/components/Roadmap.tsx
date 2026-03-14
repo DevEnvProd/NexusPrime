@@ -100,9 +100,9 @@ function OverviewContent() {
     <div className="grid lg:grid-cols-2 gap-12 items-center">
       <div className="space-y-6">
         <p className="text-gray-300 leading-relaxed text-lg">
-          The <span className="font-bold text-white">NexusPrime Roadmap</span> outlines a clear and definitive picture of our journey, 
+          The <span className="font-bold text-white">Playlandverse Roadmap</span> outlines a clear and definitive picture of our journey, 
           showcasing the evolution of our ecosystem from its inception, to the launch of our MVP (Minimum Viable Product) and beyond. 
-          The MVP now serves as the foundational base product for NexusPrime, providing a robust starting point from which all future 
+          The MVP now serves as the foundational base product for Playlandverse, providing a robust starting point from which all future 
           updates and enhancements will be built.
         </p>
         <div className="space-y-4">
@@ -166,7 +166,7 @@ function TestingContent() {
       <div>
         <h3 className="text-[#F5009F] font-bold uppercase tracking-widest mb-4">Devices</h3>
         <p className="text-gray-300 text-lg leading-relaxed mb-8">
-          We're actively testing the NexusPrime app on a range of iOS and Android devices to ensure top performance, 
+          We're actively testing the Playlandverse app on a range of iOS and Android devices to ensure top performance, 
           full compatibility, and a seamless experience across all screen sizes and operating systems.
         </p>
         <div className="flex gap-4">
@@ -190,9 +190,9 @@ function TestingContent() {
 function DevelopmentContent() {
   const items = [
     { title: "Condensed World", desc: "A new look for the 21 levels, optimised and condensed down to form new zones and centred around the brand new M3TASPACES Arena!", icon: Globe },
-    { title: "Optimised Onboarding", desc: "The Metaverse for all - An innovative and streamlined approach to accessing NexusPrime, eliminating barriers to entry.", icon: Zap },
-    { title: "BLOK Games", desc: "A unique, show-stopping virtual event inspired by popular real-world shows, brought into the Metaverse for users to compete and win.", icon: Trophy },
-    { title: "BLOK Party", desc: "A daily chance to 'Spin the Wheel' - win instant prizes of a variety of crypto or prompt $NEXUS burns.", icon: Gamepad2 },
+    { title: "Optimised Onboarding", desc: "The Metaverse for all - An innovative and streamlined approach to accessing Playlandverse, eliminating barriers to entry.", icon: Zap },
+    { title: "PLAY Games", desc: "A unique, show-stopping virtual event inspired by popular real-world shows, brought into the Metaverse for users to compete and win.", icon: Trophy },
+    { title: "PLAY Party", desc: "A daily chance to 'Spin the Wheel' - win instant prizes of a variety of crypto or prompt $PLAY burns.", icon: Gamepad2 },
   ];
 
   return (
@@ -218,10 +218,10 @@ function DevelopmentContent() {
 
 function FutureContent() {
   const items = [
-    { title: "BLOK Arcade", desc: "New single, multiplayer, and casino-style games designed for the revamped NexusPrime Arcade.", icon: Gamepad2 },
+    { title: "PLAY Arcade", desc: "New single, multiplayer, and casino-style games designed for the revamped Playlandverse Arcade.", icon: Gamepad2 },
     { title: "Virtual HQ Optimisation", desc: "Enhance the existing Virtual HQs of Tier 1 Crypto Partners through more interactive features.", icon: Layout },
     { title: "Avatar Upgrades", desc: "Enhance avatars with improved movement capabilities, along with purchasable digital wearables.", icon: Shirt },
-    { title: "BLOK Player Profiles", desc: "Develop and integrate a player profile and levelling up system.", icon: Users },
+    { title: "PLAY Player Profiles", desc: "Develop and integrate a player profile and levelling up system.", icon: Users },
   ];
 
   return (

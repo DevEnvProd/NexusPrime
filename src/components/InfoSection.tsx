@@ -41,11 +41,11 @@ export default function InfoSection() {
           >
             <h2 className="text-4xl md:text-5xl font-black text-white uppercase mb-8 leading-tight">
               What is <br />
-              <span className="text-[#F5009F]">NexusPrime?</span>
+              <span className="text-[#F5009F]">Playlandverse?</span>
             </h2>
             
             <p className="text-gray-400 text-lg leading-relaxed mb-6">
-              NexusPrime is the one-stop shop for everything Cryptocurrency and NFTs. 
+              Playlandverse is the one-stop shop for everything Cryptocurrency and NFTs. 
               Learn the basics or study advanced topics, earn money, play games, 
               make connections, and much more in an immersive virtual environment!
             </p>

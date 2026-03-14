@@ -17,7 +17,7 @@ export default function Footer() {
           ))}
         </div>
 
-        <p className="text-white mb-8">© NexusPrime all Rights Reserved 2026</p>
+        <p className="text-white mb-8">© Playlandverse all Rights Reserved 2026</p>
 
         {/* Links */}
         <div className="flex justify-center gap-8 mb-12 flex-wrap">
@@ -37,12 +37,12 @@ export default function Footer() {
           <p>
             Disclaimer. No Investment Advice. The information provided on this website does not constitute investment advice, 
             financial advice, trading advice, or any other sort of advice and you should not treat any of the website's content as such. 
-            NexusPrime does not recommend that any cryptocurrency should be bought, sold, or held by you. 
+            Playlandverse does not recommend that any cryptocurrency should be bought, sold, or held by you. 
             Do conduct your own due diligence and consult your financial advisor before making any investment decisions.
           </p>
           <p>
             You can view any revisions or modifications to the SAFT Agreement by downloading the latest version here.
-            The SAFT Agreement is password protected, please request the password via email to hello@nexusprime.com
+            The SAFT Agreement is password protected, please request the password via email to hello@playlandverse.com
           </p>
           <p className="pt-4 text-gray-400">
             This site is owned an operated by Lumocolor Limited BVI

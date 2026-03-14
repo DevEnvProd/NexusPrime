@@ -27,10 +27,10 @@ export default function EarnSection() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-black uppercase mb-4">
-            Earn with <span className="text-[#F5009F]">NexusPrime</span>
+            Earn with <span className="text-[#F5009F]">Playlandverse</span>
           </h2>
           <p className="text-gray-400 text-lg">
-            Join A JOBE Or Stake Your $NEXUS To Generate Passive Income
+            Join A JOBE Or Stake Your $PLAY To Generate Passive Income
           </p>
         </div>
 
@@ -74,8 +74,8 @@ export default function EarnSection() {
 
 function JobeContent() {
   const benefits = [
-    "Contribute in increments of 4,800 $NEXUS, with no limit to the amount of increments that can be entered into available JOBES",
-    "Earn rental rewards of 10% of $NEXUS entered into JOBES",
+    "Contribute in increments of 4,800 $PLAY, with no limit to the amount of increments that can be entered into available JOBES",
+    "Earn rental rewards of 10% of $PLAY entered into JOBES",
     "Earn rental rewards each month after being in JOBES for minimum of 15 days",
     "Join available JOBES or withdraw from JOBES at any time to suit your needs",
     "NEW JOBES opened regularly"
@@ -84,8 +84,8 @@ function JobeContent() {
   return (
     <div>
       <p className="text-gray-300 text-lg leading-relaxed mb-12">
-        Jointly Owned NexusPrime Enterprise (<span className="text-white font-bold">JOBE</span>) is a scheme designed to make NexusPrime NFTs affordable and accessible to all. 
-        By joining a JOBE, individuals can collectively own and benefit from both RENEXUS and ADNEXUS, providing a cost-effective way to own land within NexusPrime.
+        Jointly Owned Playlandverse Enterprise (<span className="text-white font-bold">JOPE</span>) is a scheme designed to make Playlandverse NFTs affordable and accessible to all. 
+        By joining a JOPE, individuals can collectively own and benefit from both REPLAY and ADPLAY, providing a cost-effective way to own land within Playlandverse.
       </p>
 
       <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -129,8 +129,8 @@ function StakingContent() {
   return (
     <div>
       <p className="text-gray-300 text-lg leading-relaxed mb-12">
-        <span className="text-white font-bold">Staking</span> verifies cryptocurrency transactions and allows participants to earn passive income from $NEXUS that is held. 
-        Lock your $NEXUS into open staking pools for fixed periods in order to help support network operations and earn rewards from doing so, known as APY.
+        <span className="text-white font-bold">Staking</span> verifies cryptocurrency transactions and allows participants to earn passive income from $PLAY that is held. 
+        Lock your $PLAY into open staking pools for fixed periods in order to help support network operations and earn rewards from doing so, known as APY.
       </p>
 
       <div className="grid lg:grid-cols-2 gap-12 items-center">

@@ -4,7 +4,7 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import RoadmapPage from "./pages/RoadmapPage";
 import EarnPage from "./pages/EarnPage";
-import NexusTokenPage from "./pages/NexusTokenPage";
+import PlaylandTokenPage from "./pages/PlaylandTokenPage";
 import DAOPage from "./pages/DAOPage";
 import ScrollToTop from "./components/ScrollToTop";
 
@@ -19,7 +19,7 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="/roadmap" element={<RoadmapPage />} />
             <Route path="/earn" element={<EarnPage />} />
-            <Route path="/nexus" element={<NexusTokenPage />} />
+            <Route path="/play" element={<PlaylandTokenPage />} />
             <Route path="/dao" element={<DAOPage />} />
           </Routes>
         </main>

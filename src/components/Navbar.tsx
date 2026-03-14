@@ -13,7 +13,7 @@ const NAV_ITEMS = [
   },
   { name: "Earn", href: "/earn" },
   { name: "Play", href: "#" },
-  { name: "$NEXUS", href: "/nexus" },
+  { name: "$PLAY", href: "/play" },
   { name: "DAO", href: "/dao" },
   { name: "NFTs", href: "#" },
 ];
@@ -45,7 +45,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="text-2xl font-black tracking-tighter uppercase">
-            Nexus<span className="text-[#F5009F]">Prime</span>
+            Playland<span className="text-[#F5009F]">verse</span>
           </Link>
 
           {/* Desktop Nav */}

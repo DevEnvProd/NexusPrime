@@ -1,26 +1,26 @@
 import { Check, ExternalLink, Coins, Vote, TrendingUp, Lock } from "lucide-react";
 import { motion } from "motion/react";
 
-export default function NexusToken() {
+export default function PlaylandToken() {
   const utilities = [
     {
       title: "Purchase",
-      desc: "Use $NEXUS for all transactions within NexusPrime, including digital wearable NFTs, RENEXUS (Real Estate), and ADNEXUS (Advertising).",
+      desc: "Use $PLAY for all transactions within Playlandverse, including digital wearable NFTs, REPLAY (Real Estate), and ADPLAY (Advertising).",
       icon: Coins,
     },
     {
       title: "Govern",
-      desc: "Use held $NEXUS tokens to participate in the NexusPrime DAO and have a say on proposals raised, shaping the future of the metaverse.",
+      desc: "Use held $PLAY tokens to participate in the Playlandverse DAO and have a say on proposals raised, shaping the future of the metaverse.",
       icon: Vote,
     },
     {
       title: "Invest",
-      desc: "Lock $NEXUS tokens into staking pools and JOBES to support the network and earn passive income rewards.",
+      desc: "Lock $PLAY tokens into staking pools and JOPES to support the network and earn passive income rewards.",
       icon: TrendingUp,
     },
     {
       title: "Access",
-      desc: "Utilize $NEXUS tokens to join exclusive live events, access VIP areas, and unlock unique content unavailable to non-holders.",
+      desc: "Utilize $PLAY tokens to join exclusive live events, access VIP areas, and unlock unique content unavailable to non-holders.",
       icon: Lock,
     },
   ];
@@ -44,7 +44,7 @@ export default function NexusToken() {
             animate={{ opacity: 1, y: 0 }}
             className="text-5xl md:text-7xl font-black uppercase mb-6 tracking-tighter"
           >
-            $<span className="text-[#F5009F]">NEXUS</span>
+            $<span className="text-[#F5009F]">PLAY</span>
           </motion.h1>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
@@ -52,7 +52,7 @@ export default function NexusToken() {
             transition={{ delay: 0.1 }}
             className="text-xl md:text-2xl text-gray-400 font-medium max-w-3xl mx-auto"
           >
-            The Utility Token And Native Currency Of NexusPrime
+            The Utility Token And Native Currency Of Playlandverse
           </motion.p>
         </div>
 
@@ -63,7 +63,7 @@ export default function NexusToken() {
             <div className="relative rounded-2xl overflow-hidden border border-white/10 shadow-2xl aspect-square lg:aspect-auto lg:h-full min-h-[400px]">
               <img 
                 src="https://picsum.photos/seed/nexus_token_utility/800/800" 
-                alt="NexusPrime Metaverse" 
+                alt="Playlandverse Metaverse" 
                 className="w-full h-full object-cover" 
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
@@ -82,9 +82,9 @@ export default function NexusToken() {
             <div className="space-y-8">
               <div className="prose prose-invert">
                 <p className="text-gray-300 text-lg leading-relaxed">
-                  The <strong className="text-white">$NEXUS</strong> token is the Native currency of NexusPrime and serves as the utility token within the metaverse, facilitating all transactions. 
-                  $NEXUS is a multichain token, currently operating across Binance Smart Chain (BSC), Polygon and Arbitrum. 
-                  Along with this, $NEXUS is listed across tier 1 CEX's and a host of DEX's, bringing significant benefits to holders by enhancing accessibility, liquidity, and simplicity to the cryptocurrency ecosystem.
+                  The <strong className="text-white">$PLAY</strong> token is the Native currency of Playlandverse and serves as the utility token within the metaverse, facilitating all transactions. 
+                  $PLAY is a multichain token, currently operating across Binance Smart Chain (BSC), Polygon and Arbitrum. 
+                  Along with this, $PLAY is listed across tier 1 CEX's and a host of DEX's, bringing significant benefits to holders by enhancing accessibility, liquidity, and simplicity to the cryptocurrency ecosystem.
                 </p>
               </div>
 
@@ -115,7 +115,7 @@ export default function NexusToken() {
         {/* Exchanges Section */}
         <div className="bg-[#111] border border-white/10 rounded-3xl p-8 md:p-12 text-center">
           <h3 className="text-2xl md:text-3xl font-black uppercase mb-2">
-            $NEXUS is publicly listed
+            $PLAY is publicly listed
           </h3>
           <p className="text-gray-400 mb-12">Across a number of exchanges on multiple networks</p>
 
@@ -141,7 +141,7 @@ export default function NexusToken() {
         {/* Disclaimer */}
         <div className="mt-12 text-center max-w-4xl mx-auto">
           <p className="text-xs text-gray-600 leading-relaxed">
-            <strong className="text-gray-500">No Investment Advice:</strong> The information provided does not constitute investment advice, financial advice, trading advice, or any other sort of advice and you should not treat any of this content as such. NexusPrime does not recommend that any cryptocurrency should be bought, sold, or held by you. Do conduct your own due diligence and consult your financial advisor before making any investment decisions.
+            <strong className="text-gray-500">No Investment Advice:</strong> The information provided does not constitute investment advice, financial advice, trading advice, or any other sort of advice and you should not treat any of this content as such. Playlandverse does not recommend that any cryptocurrency should be bought, sold, or held by you. Do conduct your own due diligence and consult your financial advisor before making any investment decisions.
           </p>
         </div>
       </div>
