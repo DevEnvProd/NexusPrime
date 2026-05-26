@@ -6,6 +6,7 @@ import RoadmapPage from "./pages/RoadmapPage";
 import EarnPage from "./pages/EarnPage";
 import PlaylandTokenPage from "./pages/PlaylandTokenPage";
 import DAOPage from "./pages/DAOPage";
+import NewsPage from "./pages/NewsPage";
 import ScrollToTop from "./components/ScrollToTop";
 
 export default function App() {
@@ -21,6 +22,7 @@ export default function App() {
             <Route path="/earn" element={<EarnPage />} />
             <Route path="/play" element={<PlaylandTokenPage />} />
             <Route path="/dao" element={<DAOPage />} />
+            <Route path="/news/winbox-partnership" element={<NewsPage />} />
           </Routes>
         </main>
         <Footer />

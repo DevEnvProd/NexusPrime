@@ -1,4 +1,5 @@
 import { motion } from "motion/react";
+import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
@@ -36,6 +37,17 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-left"
         >
+          <Link 
+            to="/news/winbox-partnership"
+            className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#F5009F]/10 border border-[#F5009F]/30 text-xs font-mono uppercase tracking-widest text-[#F5009F] mb-6 hover:bg-[#F5009F]/20 hover:border-[#F5009F]/50 transition-all cursor-pointer shadow-[0_0_15px_rgba(245,0,159,0.1)]"
+          >
+            <span className="flex h-2 w-2 relative">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#F5009F] opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-2 w-2 bg-[#F5009F]"></span>
+            </span>
+            Winbox Alliance Live Launch
+          </Link>
+
           <h1 className="text-5xl md:text-7xl font-black text-white leading-tight uppercase mb-6">
             Enter The <br />
             <span className="text-[#F5009F]">Metaverse</span>

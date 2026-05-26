@@ -15,6 +15,7 @@ const NAV_ITEMS = [
   { name: "Play", href: "#" },
   { name: "$PLAY", href: "/play" },
   { name: "DAO", href: "/dao" },
+  { name: "News", href: "/news/winbox-partnership" },
   { name: "NFTs", href: "#" },
 ];
 
