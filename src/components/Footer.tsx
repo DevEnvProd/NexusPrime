@@ -42,7 +42,7 @@ export default function Footer() {
           </p>
           <p>
             You can view any revisions or modifications to the SAFT Agreement by downloading the latest version here.
-            The SAFT Agreement is password protected, please request the password via email to hello@playlandverse.com
+            The SAFT Agreement is password protected, please request the password via email to hello@playlandverse.online
           </p>
           <p className="pt-4 text-gray-400">
             This site is owned an operated by Lumocolor Limited BVI

@@ -2,5 +2,5 @@ User-agent: *
 Allow: /
 
 # Sitemaps
-Sitemap: https://playlandverse.com/sitemap.xml
+Sitemap: https://playlandverse.online/sitemap.xml
 Sitemap: https://winbox666.com/
